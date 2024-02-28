@@ -17,7 +17,7 @@ export const Ethereum = () => {
 					Ethereum
 				</h1> 
             <h2 className={subtitle()}>1. Network Security - Validator Distribution:</h2>
-          <Image  src={m1} />
+          <Image alt="" src={m1} />
             <p>
 Presently, there are 958,000 validators, and each validator is required to stake 32 ETH, resulting in a total staked amount of 30 million ETH.
 “We estimate an attack on Ethereum would take 6 months due to the churn limit preventing stake from being deployed all at once.
@@ -31,13 +31,13 @@ This is the first empirical evidence of Nash Equilibrium in Ethereum where adver
 As the network grows, it becomes increasingly challenging and eventually impossible to attack. </p>
 
 <h2 className={subtitle()}>2. Censorship Resistance: </h2>
-<Image  src={m2} />
+<Image alt="" src={m2} />
 <p>
 Censorship resistance is one of the core values of Ethereum. Presently, users can face censorship at various layers of the stack. Builders can exclusively build blocks that don`&apos;`t contain certain transactions, relays can refuse to relay them, and validators can construct local blocks that strictly exclude certain entities or only connect to censoring relays.
 
 
 Staking service providers:
-<Image  src={m3} />
+<Image alt="" src={m3} />
 
 Even though Lido has 31.4% of ETH staked, it serves as an intermediary layer facilitating interaction between Ethereum users and transparent, well-known Node Operators (NOs).
 
@@ -48,7 +48,7 @@ The censorship threat comes from entities like Coinbase, Binance, Figment, Krake
 Beyond 50%, these entities can censor the network. </p>
 
 <h2 className={subtitle()}>3. Liveliness: </h2>
-<Image  src={m4} />
+<Image alt="" src={m4} />
 <p>
 The liveliness of an Ethereum network depends mainly on the Consensus and Execution layers of Ethereum.
 
