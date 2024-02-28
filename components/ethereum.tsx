@@ -7,7 +7,7 @@ import m2 from  "../public/m2.png";
 import m3 from  "../public/m3.png";
 import m4 from  "../public/m4.png";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export const Ethereum = () => {
     return(
@@ -33,7 +33,7 @@ As the network grows, it becomes increasingly challenging and eventually impossi
 <h2 className={subtitle()}>2. Censorship Resistance: </h2>
 <Image  src={m2} />
 <p>
-Censorship resistance is one of the core values of Ethereum. Presently, users can face censorship at various layers of the stack. Builders can exclusively build blocks that don't contain certain transactions, relays can refuse to relay them, and validators can construct local blocks that strictly exclude certain entities or only connect to censoring relays.**
+Censorship resistance is one of the core values of Ethereum. Presently, users can face censorship at various layers of the stack. Builders can exclusively build blocks that don`&apos;`t contain certain transactions, relays can refuse to relay them, and validators can construct local blocks that strictly exclude certain entities or only connect to censoring relays.**
 
 
 Staking service providers:
@@ -41,7 +41,7 @@ Staking service providers:
 
 Even though Lido has 31.4% of ETH staked, it serves as an intermediary layer facilitating interaction between Ethereum users and transparent, well-known Node Operators (NOs).
 
-“This process is underpinned by a network of 40+ legitimate and autonomous NOs. These NOs are not only geographically dispersed, but each of them individually holds less than 1.5% of the total staked assets. Lido DAO can’t censor the transaction; it's up to the Node Operators.
+“This process is underpinned by a network of 40+ legitimate and autonomous NOs. These NOs are not only geographically dispersed, but each of them individually holds less than 1.5% of the total staked assets. Lido DAO can not censor the transaction; it`&apos;`s up to the Node Operators.
 
 The censorship threat comes from entities like Coinbase, Binance, Figment, Kraken, which are centralized entities that will censor transactions to stay OFAC Compliant. These centralized entities currently account for more than 30% of ETH staked.
 
@@ -52,17 +52,17 @@ Beyond 50%, these entities can censor the network. </p>
 <p>
 The liveliness of an Ethereum network depends mainly on the Consensus and Execution layers of Ethereum.
 
-While many understand that client diversity is important for a more resilient network, they may not fully grasp why or how essential it is. It's not merely important; it's critical. If a single client is used by 2/3rds (66%) of validators, there's a significant risk that this can disrupt the chain and result in monetary loss for node operators.
+While many understand that client diversity is important for a more resilient network, they may not fully grasp why or how essential it is. It`&apos;`s not merely important; it`&apos;`s critical. If a single client is used by 2/3rds (66%) of validators, there`&apos;`s a significant risk that this can disrupt the chain and result in monetary loss for node operators.
 
 It takes 2/3rds of validators to reach finality. If a client with 66%+ of market share has a bug and forks to its own chain, it will be capable of finalizing. Once the fork finalizes, validators cannot return to the real chain without being slashed. If 66% of the chain gets slashed simultaneously, the penalty is the entire 32 ETH.
 
-So why is 50% market share still dangerous? If a minority client forks, the 50%+ majority client can obtain a 66%+ majority. With no client having a market share over 33%, these scenarios are avoided. That's why 33% market share is the goal for all clients.
+So why is 50% market share still dangerous? If a minority client forks, the 50%+ majority client can obtain a 66%+ majority. With no client having a market share over 33%, these scenarios are avoided. That`&apos;`s why 33% market share is the goal for all clients.
 
 These risks mentioned above apply to both consensus clients and execution clients equally.
 
 Consensus clients are fairly diversified with Prysm, Lighthouse, Teku, Nimbus. However, Prysm has a 37.72% market share, which is not ideal. Prysm at 38%, with any client bug over 33.3%, could mean a loss of finality.
 
-Execution clients are not evenly distributed, with Geth having an 83% market share, Nethermind- 14%, Besu- 10%. Geth's 83% supermajority could cause a chain split.
+Execution clients are not evenly distributed, with Geth having an 83% market share, Nethermind- 14%, Besu- 10%. Geth`&apos;`s 83% supermajority could cause a chain split.
 </p></div>
     );
 };
