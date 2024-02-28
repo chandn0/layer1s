@@ -4,8 +4,14 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
+import { DataTable } from "@/components/datatable";
+import { Ethereum } from "@/components/ethereum";
+
+
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+
+
 
 export const metadata: Metadata = {
 	title: {
@@ -43,11 +49,17 @@ export default function RootLayout({
 					{/* <Navbar />  */}
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
+							<DataTable />
+							<Ethereum/>
 						</main>
+						
 						<footer className="w-full flex items-center justify-center py-3">
 							<div
 								className="flex items-center gap-1 text-current"
 							>
+								<span className="text-default-600">Improve the mertics by creating a PR at </span>
+								<Link isExternal className="text-primary" href="https://github.com/chandn0/layer1s">GitHub</Link> 
+								||  
 								<span className="text-default-600">Made by</span>
 								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link> &
 								<Link isExternal className="text-primary" href="https://twitter.com/LeonWaidmann">Leon</Link>
