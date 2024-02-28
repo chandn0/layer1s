@@ -33,7 +33,7 @@ As the network grows, it becomes increasingly challenging and eventually impossi
 <h2 className={subtitle()}>2. Censorship Resistance: </h2>
 <Image  src={m2} />
 <p>
-Censorship resistance is one of the core values of Ethereum. Presently, users can face censorship at various layers of the stack. Builders can exclusively build blocks that don`&apos;`t contain certain transactions, relays can refuse to relay them, and validators can construct local blocks that strictly exclude certain entities or only connect to censoring relays.**
+Censorship resistance is one of the core values of Ethereum. Presently, users can face censorship at various layers of the stack. Builders can exclusively build blocks that don`&apos;`t contain certain transactions, relays can refuse to relay them, and validators can construct local blocks that strictly exclude certain entities or only connect to censoring relays.
 
 
 Staking service providers:
