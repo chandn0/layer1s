@@ -1,29 +1,29 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "layer1s-mertics",
+	description: "This website is an effort created to measure key metrics such as decentralization, censorship resistance, liveliness, and governance updates on layer1s. The goal is to guide the community in investing their time and money in the areas that are required to strengthen the layer1s.",
 	navItems: [
 		{
 			label: "Home",
 			href: "/",
 		},
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+		{
+			label: "Docs",
+			href: "/docs",
+		},
+		{
+			label: "Pricing",
+			href: "/pricing",
+		},
+		{
+			label: "Blog",
+			href: "/blog",
+		},
+		{
+			label: "About",
+			href: "/about",
+		}
 	],
 	navMenuItems: [
 		{
@@ -64,6 +64,6 @@ export const siteConfig = {
 		twitter: "https://twitter.com/getnextui",
 		docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		sponsor: "https://patreon.com/jrgarciadev"
 	},
 };
