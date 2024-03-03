@@ -15,7 +15,7 @@ import {
 	  NetworkSecurity: "It would cost over 34B USD. The attacker would have to manage over 200 nodes and spend 1M USD on AWS alone.There is no ways for a attacker to continuously run a 34% attack if the goal is to destroy these networks. ",
 	  CensorshipResistance: "The censorship threat comes from entities like Coinbase, Binance, Figment, Kraken, which are centralized entities that will censor transactions to stay OFAC Compliant. These centralized entities currently account for more than 30% of ETH staked.",
 	  Liveliness: "Execution clients are not evenly distributed, with Geth having an 83% market share. Geth's 83% supermajority could cause a chain split.",
-	  Governance:"Working....",
+	  Governance:"Anyone can propose changes to Ethereum. The Ethereum governance process prioritizes openness and inclusivity, which can sometimes lead to a trade-off between speed and efficiency.GitHub is the only single point of failure, based on actions taken by Github surrounding the Tornado Cash repository.",
 	},
 	{
 		key: "2",

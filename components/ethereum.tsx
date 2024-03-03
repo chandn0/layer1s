@@ -63,6 +63,16 @@ These risks mentioned above apply to both consensus clients and execution client
 Consensus clients are fairly diversified with Prysm, Lighthouse, Teku, Nimbus. However, Prysm has a 37.72% market share, which is not ideal. Prysm at 38%, with any client bug over 33.3%, could mean a loss of finality.
 
 Execution clients are not evenly distributed, with Geth having an 83% market share, Nethermind- 14%, Besu- 10%. Geth`&apos;`s 83% supermajority could cause a chain split.
-</p></div>
+</p>
+<h2 className={subtitle()}>4. Governance: Political Decentralization </h2>
+<p>Anyone can propose changes to Ethereum.
+- Three primary resources for researching these proposals include:
+    - The EIP repository (https://eips.ethereum.org/)
+    - Ethereum Magicians (https://ethereum-magicians.org/)
+    - ethresear.ch (https://ethresear.ch/)
+The Ethereum governance process prioritizes openness and inclusivity, which can sometimes lead to a trade-off between speed and efficiency.
+GitHub is the only single point of failure, based on actions taken by Github surrounding the Tornado Cash repository.</p>
+
+</div>
     );
 };
