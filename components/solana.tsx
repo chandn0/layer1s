@@ -24,7 +24,7 @@ Superminority: The smallest number of validators needed to collectively control 
 <h2 className={subtitle()}>2. Censorship Resistance: </h2>
 <Image alt="" src={m5} />
 <p>
-Currently, 70% of validators are hosted in data centers, this concentration raises concerns regarding potential censorship by governments. If governments pressure data centers to ban Solana validators or block specific transactions, it could hinder the network's ability to function freely. This concern intensifies as the technical requirements for running validators increase, potentially pushing more toward data center solutions and centralizing the network.
+Currently, 70% of validators are hosted in data centers, this concentration raises concerns regarding potential censorship by governments. If governments pressure data centers to ban Solana validators or block specific transactions, it could hinder the network`&apos;`s ability to function freely. This concern intensifies as the technical requirements for running validators increase, potentially pushing more toward data center solutions and centralizing the network.
  </p>
 
 <h2 className={subtitle()}>3. Liveliness: </h2>

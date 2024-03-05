@@ -19,7 +19,7 @@ export const Bitcoin = () => {
 <Image alt="" src={m7} />
 
             <p>
-            - 51% Attack:The most significant security risk to Bitcoin is a 51% attack, where an entity controls over half of the network's mining power. This allows them to potentially double-spend coins and disrupt network operations.
+            - 51% Attack:The most significant security risk to Bitcoin is a 51% attack, where an entity controls over half of the network`&apos;`s mining power. This allows them to potentially double-spend coins and disrupt network operations.
 - Estimating Attack Cost:Calculating the cost of a 51% attack involves factors like:
     - Active ASICs:The number of actively mining ASICs(specialized mining hardware) can be estimated using tools like MINE-MATCH. Multiplying this number by 51% provides a rough estimate of the required hardware.
     - Manufacturing Cost:While some models may be vulnerable to reverse-engineering, the cost of manufacturing ASICs at scale (e.g., S9 model) is significant, reaching billions of dollars.
@@ -37,7 +37,7 @@ Large Mining Pools:Entities like Foundry USA and Antpool control a significant p
 </p>
 <h2 className={subtitle()}>4. Governance: Political Decentralization </h2>
 <p>- Decentralized Decision-Making: Updates to the Bitcoin network are decentralized, meaning no single entity controls the process.
-- Soft Forks: Network upgrades are typically implemented through soft forks, ensuring backward compatibility and preventing disruptions for miners who haven't updated their software.</p>
+- Soft Forks: Network upgrades are typically implemented through soft forks, ensuring backward compatibility and preventing disruptions for miners who haven`&apos;`t updated their software.</p>
 
 </div>
     );
