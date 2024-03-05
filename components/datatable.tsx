@@ -33,6 +33,39 @@ import {
 		Liveliness: "Approximately 84% of validators continue to operate the Solana Labs Client. In the event of a bug, this concentration poses a risk as it could potentially lead to a complete network halt.",
 		Governance:"Governance has centralization concerns, as the Labs team ultimately approves changes proposed through public pull requests.",
 	  },
+	  {
+		key: "4",
+		Chain:"Near",
+		NetworkSecurity: "Adding soon..",
+		CensorshipResistance: "",
+		Liveliness: "",
+		Governance:"",
+	  },
+	  {
+		key: "4",
+		Chain:"BNB",
+		NetworkSecurity: "Adding soon..",
+		CensorshipResistance: "",
+		Liveliness: "",
+		Governance:"",
+	  },
+	  {
+		key: "4",
+		Chain:"Cardano",
+		NetworkSecurity: "Adding soon..",
+		CensorshipResistance: "",
+		Liveliness: "",
+		Governance:"",
+	  },
+	  {
+		key: "4",
+		Chain:"Avalanche",
+		NetworkSecurity: "Adding soon..",
+		CensorshipResistance: "",
+		Liveliness: "",
+		Governance:"",
+	  },
+
   ];
   
   const columns = [
