@@ -20,10 +20,10 @@ import {
 	{
 		key: "2",
 		Chain:"Bitcoin",
-		NetworkSecurity: "Adding soon....",
-		CensorshipResistance: "",
-		Liveliness: "",
-		Governance:"",
+		NetworkSecurity: " The estimated cost of a 51% attack has been ranging from $5 billion to $22 billion USD.",
+		CensorshipResistance: "Entities like Foundry USA and Antpool control a significant portion (56%) of mining power. While not direct censorship, these entities could be pressured by governments to restrict specific transactions, potentially impacting network neutrality.",
+		Liveliness: " The Bitcoin network has maintained 100% uptime since 2013, demonstrating its robustness.",
+		Governance:"Updates to the Bitcoin network are decentralized, meaning no single entity controls the process. Network upgrades are typically implemented through soft forks, ensuring backward compatibility and preventing disruptions for miners who haven't updated their software.",
 	  },	
 	  {
 		key: "3",

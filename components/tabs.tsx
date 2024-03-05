@@ -3,7 +3,7 @@
 import {Tabs, Tab, Card, CardBody, CardHeader} from "@nextui-org/react";
 import { Ethereum } from "@/components/ethereum";
 import { Solana } from "@/components/solana";
-
+import { Bitcoin } from "@/components/bitcoin";
 export const  Tabs1=() => {
 
 
@@ -26,7 +26,7 @@ export const  Tabs1=() => {
       <Tab key="Bitcoin" title="Bitcoin" >
         <Card>
           <CardBody>
-            Adding soon....
+          <Bitcoin/>
           </CardBody>
         </Card>
       </Tab>
