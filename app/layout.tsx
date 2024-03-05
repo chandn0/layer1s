@@ -6,7 +6,9 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { DataTable } from "@/components/datatable";
 import { Ethereum } from "@/components/ethereum";
-
+import { Solana } from "@/components/solana";
+import {Tabs1} from "@/components/tabs";
+import {Divider} from "@nextui-org/react";
 
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
@@ -49,10 +51,12 @@ export default function RootLayout({
 					{/* <Navbar />  */}
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
+							<Divider className="my-4" />
 							<DataTable />
-							<Ethereum/>
+							<Divider className="my-4" />
+							<Tabs1 />
 						</main>
-						
+						<Divider className="my-4" />
 						<footer className="w-full flex items-center justify-center py-3">
 							<div
 								className="flex items-center gap-1 text-current"

@@ -24,13 +24,14 @@ import {
 		CensorshipResistance: "",
 		Liveliness: "",
 		Governance:"",
-	  },	{
+	  },	
+	  {
 		key: "3",
 		Chain:"Solana",
-		NetworkSecurity: "Adding soon....",
-		CensorshipResistance: "",
-		Liveliness: "",
-		Governance:"",
+		NetworkSecurity: "384 million SOL (86% circulating) is staked by 1,606 validators. Superminority: 20 validators control over 33% of stake. While collusion could halt the network, other validators would detect and stop the attack.",
+		CensorshipResistance: "Data center concentration (70% of validators) raises censorship concerns as governments can pressure data centers to restrict Solana.",
+		Liveliness: "Approximately 84% of validators continue to operate the Solana Labs Client. In the event of a bug, this concentration poses a risk as it could potentially lead to a complete network halt.",
+		Governance:"Governance has centralization concerns, as the Labs team ultimately approves changes proposed through public pull requests.",
 	  },
   ];
   
