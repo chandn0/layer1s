@@ -61,7 +61,7 @@ export default function RootLayout({
 							<div
 								className="flex items-center gap-1 text-current"
 							>
-								<span className="text-default-600">Improve the mertics by creating a PR at </span>
+								<span className="text-default-600">Improve mertics by creating PR or report issues at </span>
 								<Link isExternal className="text-primary" href="https://github.com/chandn0/layer1s">GitHub</Link> 
 								||  
 								<span className="text-default-600">Made by</span>

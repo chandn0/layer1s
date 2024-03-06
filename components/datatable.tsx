@@ -8,42 +8,58 @@ import {
 	TableCell,
 	getKeyValue
   } from "@nextui-org/table";
+import { title, subtitle, } from "@/components/primitives";
+
   const rows = [
 	{
 	  key: "1",
 	  Chain:"Ethereum",
-	  NetworkSecurity: "It would cost over 34B USD. The attacker would have to manage over 200 nodes and spend 1M USD on AWS alone.There is no ways for a attacker to continuously run a 34% attack if the goal is to destroy these networks. ",
-	  CensorshipResistance: "The censorship threat comes from entities like Coinbase, Binance, Figment, Kraken, which are centralized entities that will censor transactions to stay OFAC Compliant. These centralized entities currently account for more than 30% of ETH staked.",
-	  Liveliness: "Execution clients are not evenly distributed, with Geth having an 83% market share. Geth's 83% supermajority could cause a chain split.",
-	  Governance:"Anyone can propose changes to Ethereum. The Ethereum governance process prioritizes openness and inclusivity, which can sometimes lead to a trade-off between speed and efficiency.GitHub is the only single point of failure, based on actions taken by Github surrounding the Tornado Cash repository.",
+	  NetworkSecurity: "Cost's over 34B USD, and require 200 nodes. =[9/10]",
+	  CensorshipResistance: "Centralized entities like(Coinbase, Binance, Figment, Kraken) account for more than 30% of ETH staked. =[5/10]",
+	  Liveliness: "Geth's 83% supermajority could cause a chain split.=[6/10]",
+	  Governance:"Eth governance process prioritizes openness and inclusivity. =[8/10]",
+	  Score:"=[28/40]",
+
 	},
 	{
 		key: "2",
 		Chain:"Bitcoin",
-		NetworkSecurity: " The estimated cost of a 51% attack has been ranging from $5 billion to $22 billion USD.",
-		CensorshipResistance: "Entities like Foundry USA and Antpool control a significant portion (56%) of mining power. While not direct censorship, these entities could be pressured by governments to restrict specific transactions, potentially impacting network neutrality.",
-		Liveliness: " The Bitcoin network has maintained 100% uptime since 2013, demonstrating its robustness.",
-		Governance:"Updates to the Bitcoin network are decentralized, meaning no single entity controls the process. Network upgrades are typically implemented through soft forks, ensuring backward compatibility and preventing disruptions for miners who haven't updated their software.",
+		NetworkSecurity: " The cost of a 51% attack has been ranging from $5 billion to $22 billion USD.=[8/10]",
+		CensorshipResistance: "Entities like Foundry USA and Antpool control a significant portion (56%) of mining power.=[5/10]",
+		Liveliness: "Maintained 100% uptime since 2013.=[10/10]",
+		Governance:"Network upgrades are typically implemented through soft forks.=[9/10]",
+		Score:"=[32/40]",
 	  },	
 	  {
 		key: "3",
 		Chain:"Solana",
-		NetworkSecurity: "384 million SOL (86% circulating) is staked by 1,606 validators. Superminority: 20 validators control over 33% of stake. While collusion could halt the network, other validators would detect and stop the attack.",
-		CensorshipResistance: "Data center concentration (70% of validators) raises censorship concerns as governments can pressure data centers to restrict Solana.",
-		Liveliness: "Approximately 84% of validators continue to operate the Solana Labs Client. In the event of a bug, this concentration poses a risk as it could potentially lead to a complete network halt.",
-		Governance:"Governance has centralization concerns, as the Labs team ultimately approves changes proposed through public pull requests.",
+		NetworkSecurity: "384 million SOL (86% circulating) is staked by 1,606 validators. =[6/10]",
+		CensorshipResistance: "Data center concentration (70% of validators).=[3/10]",
+		Liveliness: "84% of validators operate the Solana Labs Client.=[3/10]",
+		Governance:"The Labs team ultimately approves changes proposed through public PRs.=[4/10]",
+		Score:"=[16/40]",
+	  },
+	  {
+		key: "4",
+		Chain:"BSC",
+		NetworkSecurity: "Validator set consisting of only 40 active validators.=[5/10]",
+		CensorshipResistance: "As Binance's need to comply with regulations,it will censor the trax. =[2/10]",
+		Liveliness: "76% of BSC validators utilize Erigon client.=[5/10]",
+		Governance:"Upgrades are entirely controlled by the BNB team.=[3/10]",
+		Score:"=[15/40]",
+	  },
+	  {
+		key: "5",
+		Chain:"Tron",
+		NetworkSecurity: "27 elected Super Representatives securing the network. =[3/10]",
+		CensorshipResistance: "majority of the 27 SR entities are located in the United State. =[3/10]",
+		Liveliness: "all SRs utilize the same java-tron client. =[2/10]",
+		Governance:"Network upgrades rests primarily with the Tron Core team. =[3/10] ",
+		Score:"=[11/40]",
 	  },
 	  {
 		key: "4",
 		Chain:"Near",
-		NetworkSecurity: "Adding soon..",
-		CensorshipResistance: "",
-		Liveliness: "",
-		Governance:"",
-	  },
-	  {
-		key: "4",
-		Chain:"BNB",
 		NetworkSecurity: "Adding soon..",
 		CensorshipResistance: "",
 		Liveliness: "",
@@ -89,15 +105,19 @@ import {
 	key: "Governance",
 	label: "Governance",
 	},
+	{
+		key: "Score",
+		label: "Total Score",
+		},
   ];
 
 export const DataTable = () => {
 	return ( 
 		<div>
 			<br/>
-			<Table aria-label="Example table with dynamic content">
-      <TableHeader columns={columns}>
-        {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}
+			<Table isStriped aria-label="Example table with dynamic content">
+      <TableHeader  columns={columns}>
+        {(column) => <TableColumn className="text-xl" key={column.key}>{column.label}</TableColumn>}
       </TableHeader>
       <TableBody items={rows}>
         {(item) => (

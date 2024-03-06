@@ -5,6 +5,8 @@ import { title, subtitle } from "@/components/primitives";
 import m5 from  "../public/m5.png";
 import m6 from  "../public/m6.png";
 
+import {Link} from "@nextui-org/react";
+import {Divider} from "@nextui-org/react";
 
 import Image from "next/image";
 
@@ -35,7 +37,16 @@ Historically, Solana relied solely on a single validator client developed by Sol
 Notably, on February 6th, 2024, the Solana Mainnet Beta encountered a five-hour outage, marking the sixth major incident since its inception.</p>
 <h2 className={subtitle()}>4. Governance: Political Decentralization </h2>
 <p>While the current process for proposing changes to the Solana architecture involves open public proposals submitted through pull requests on the Solana GitHub repository, the final decision on accepting or rejecting these proposals rests with the Solana Labs team. This centralized decision-making raises concerns about a potential single point of failure in the governance process.</p>
+<Divider className="my-4" />
 
+<h3 className={subtitle()}>Reference:</h3>
+
+<ul className={"list-disc list-inside"} >
+        <li><Link href="https://solanabeach.io/validators" target="_blank">Validators | Solana Beach</Link></li>
+        <li><Link href="https://solanacompass.com/statistics/decentralization" target="_blank">Solana Decentralization Dashboard: Just how decentralized is Solana, really? (solanacompass.com)</Link></li>
+        <li><Link href="https://www.validators.app/data-centers?locale=en&network=mainnet&sort_by=data_center" target="_blank">Solana Validators | www.validators.app</Link></li>
+        <li><Link href="https://solana.com/news/validator-health-report-march-2023" target="_blank">Solana Foundation Validator Health Report: March 2023 | Solana</Link></li>
+    </ul>
 </div>
     );
 };

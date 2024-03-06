@@ -8,6 +8,8 @@ import m3 from  "../public/m3.png";
 import m4 from  "../public/m4.png";
 
 import Image from "next/image";
+import {Divider} from "@nextui-org/react";
+import {Link} from "@nextui-org/react";
 
 export const Ethereum = () => {
     return(
@@ -72,7 +74,27 @@ Execution clients are not evenly distributed, with Geth having an 83% market sha
     - ethresear.ch (https://ethresear.ch/)
 The Ethereum governance process prioritizes openness and inclusivity, which can sometimes lead to a trade-off between speed and efficiency.
 GitHub is the only single point of failure, based on actions taken by Github surrounding the Tornado Cash repository.</p>
+<Divider className="my-4" />
 
+<h3 className={subtitle()}>Reference:</h3>
+<ul className={"list-disc list-inside"} >
+        <li><Link href="https://beaconcha.in/charts/validators" target="_blank">Validators Chart - Open Source Ethereum Blockchain Explorer - beaconcha.in - 2024</Link></li>
+        <li><Link href="https://notes.ethereum.org/@djrtwo/risks-of-lsd" target="_blank">The Risks of LSD - HackMD (ethereum.org)</Link></li>
+        <li><Link href="https://www.halborn.com/blog/post/ethereum-security-overview" target="_blank">Ethereum Security Overview (halborn.com)</Link></li>
+        <li><Link href="https://censorship.pics/" target="_blank">Censorship.pics</Link></li>
+        <li><Link href="https://dune.com/queries/2394100/3928083" target="_blank">ETH Stakers (dune.com)</Link></li>
+        <li><Link href="https://clientdiversity.org/" target="_blank">Client Diversity | Ethereum</Link></li>
+        <li><Link href="https://www.rated.network/overview?network=mainnet&timeWindow=1d&rewardsMetric=average&geoDistType=pros&hostDistType=all&soloProDist=nodes" target="_blank">Network Overview | Ethereum Ethereum Mainnet (rated.network)</Link></li>
+        <li><Link href="https://twitter.com/VitalikButerin/status/1247607628668309507" target="_blank">vitalik.eth on X: "People who say "full decentralization is overkill, you only need non-custodial" are missing the point...</Link></li>
+        <li><Link href="https://twitter.com/Ooojin482/status/1592608847444992001" target="_blank">Ooojin 🇺🇦 on X: "What is decentralization? Here are 19 metrics of decentralization that make people on crypto Twitter yell at each other. A 🧵"</Link></li>
+        <li><Link href="https://nodewatch.io/" target="_blank">Nodewatch - Eth2 Node Analytics</Link></li>
+        <li><Link href="https://twitter.com/mt_1466/status/1570517927061000192" target="_blank">MT on X: "Security and decentralization are tough to quantify in crypto land Trust me, I've tried (image) </Link></li>
+        <li><Link href="https://news.earn.com/quantifying-decentralization-e39db233c28e" target="_blank">Quantifying Decentralization. We must be able to measure blockchain… | by Balaji S. Srinivasan | news.earn.com</Link></li>
+        <li><Link href="https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274" target="_blank">The Meaning of Decentralization. “Decentralization” is one of the words… | by Vitalik Buterin | Medium</Link></li>
+        <li><Link href="https://twitter.com/Justin_Bons/status/1759631000374567282" target="_blank">Justin Bons on X: What is decentralization & how do we really measure it? </Link></li>
+        <li><Link href="https://vitalik.eth.limo/general/2017/12/17/voting.html" target="_blank">Notes on Blockchain Governance (eth.limo)</Link></li>
+        <li><Link href="https://ethereum.org/en/governance/" target="_blank">Ethereum Governance | ethereum.org</Link></li>
+    </ul>
 </div>
     );
 };
