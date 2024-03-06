@@ -26,13 +26,13 @@ export const BSC = () => {
     </ul>
 
     <h2 className={subtitle()} >2. Censorship Resistance:</h2>
-    <p>The incident on October 6th, 2022, where Binance <strong>paused the BSC network</strong> to address an exploit further highlights the chain's centralized nature. While stopping an exploit can be beneficial, the ability to <strong>pause a supposedly decentralized network</strong> contradicts the core principles of decentralization. This also raises concerns about potential <strong>censorship of transactions</strong> in the future, especially considering Binance's need to comply with regulations like those from the Office of Foreign Assets Control (OFAC).</p>
+    <p>The incident on October 6th, 2022, where Binance <strong>paused the BSC network</strong> to address an exploit further highlights the chain`&apos;`s centralized nature. While stopping an exploit can be beneficial, the ability to <strong>pause a supposedly decentralized network</strong> contradicts the core principles of decentralization. This also raises concerns about potential <strong>censorship of transactions</strong> in the future, especially considering Binance`&apos;`s need to comply with regulations like those from the Office of Foreign Assets Control (OFAC).</p>
 
     <h2 className={subtitle()} >3. Liveliness:</h2>
     <p>Currently, <strong>76% of BSC validators utilize the same client software, Erigon</strong>. This creates a <strong>single point of failure</strong>. If a critical bug were discovered in Erigon, it could potentially <strong>halt the entire BSC network</strong>.</p>
 
     <h2 className={subtitle()}>4. Governance Upgrades:</h2>
-    <p>Similar to the validator selection process, <strong>governance upgrades on BSC are entirely controlled by the Binance team</strong>. This further centralizes decision-making power and limits community involvement in shaping the network's future.</p>
+    <p>Similar to the validator selection process, <strong>governance upgrades on BSC are entirely controlled by the Binance team</strong>. This further centralizes decision-making power and limits community involvement in shaping the network`&apos;`s future.</p>
     <Divider className="my-4" />
 
     <h3 className={subtitle()}>Reference:</h3>

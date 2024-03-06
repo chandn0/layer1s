@@ -20,7 +20,7 @@ export const Bitcoin = () => {
             <h2 className={subtitle()}>1. Network Security:</h2>
 <Image alt="" src={m7} />
 
-<p><strong>51% Attack:</strong> The most significant security risk to Bitcoin is a <strong>51% attack</strong>, where an entity controls over half of the network's mining power. This allows them to potentially double-spend coins and disrupt network operations.</p>
+<p><strong>51% Attack:</strong> The most significant security risk to Bitcoin is a <strong>51% attack</strong>, where an entity controls over half of the network`&apos;`s mining power. This allows them to potentially double-spend coins and disrupt network operations.</p>
 
 <p><strong>Estimating Attack Cost:</strong> Calculating the cost of a 51% attack involves factors like:</p>
 
@@ -44,7 +44,7 @@ Large Mining Pools:Entities like Foundry USA and Antpool control a significant p
 <h2 className={subtitle()}>4. Governance: Political Decentralization </h2>
 <p><strong>Decentralized Decision-Making:</strong> Updates to the Bitcoin network are <strong>decentralized</strong>, meaning no single entity controls the process.</p>
 
-<p><strong>Soft Forks:</strong> Network upgrades are typically implemented through <strong>soft forks</strong>, ensuring backward compatibility and preventing disruptions for miners who haven't updated their software.</p>
+<p><strong>Soft Forks:</strong> Network upgrades are typically implemented through <strong>soft forks</strong>, ensuring backward compatibility and preventing disruptions for miners who haven`&apos;`t updated their software.</p>
 <Divider className="my-4" />
 
 <h3 className={subtitle()}>Reference:</h3>
