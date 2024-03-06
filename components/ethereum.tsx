@@ -22,7 +22,7 @@ export const Ethereum = () => {
           <Image alt="" src={m1} />
             <p>
 Presently, there are 958,000 validators, and each validator is required to stake 32 ETH, resulting in a total staked amount of 30 million ETH.
-“We estimate an attack on Ethereum would take 6 months due to the churn limit preventing stake from being deployed all at once.
+`&quot;`We estimate an attack on Ethereum would take 6 months due to the churn limit preventing stake from being deployed all at once.
 
 That would cost over 34B USD. The attacker would have to manage over 200 nodes and spend 1M USD on AWS alone.
 
@@ -85,10 +85,10 @@ GitHub is the only single point of failure, based on actions taken by Github sur
         <li><Link href="https://dune.com/queries/2394100/3928083" target="_blank">ETH Stakers (dune.com)</Link></li>
         <li><Link href="https://clientdiversity.org/" target="_blank">Client Diversity | Ethereum</Link></li>
         <li><Link href="https://www.rated.network/overview?network=mainnet&timeWindow=1d&rewardsMetric=average&geoDistType=pros&hostDistType=all&soloProDist=nodes" target="_blank">Network Overview | Ethereum Ethereum Mainnet (rated.network)</Link></li>
-        <li><Link href="https://twitter.com/VitalikButerin/status/1247607628668309507" target="_blank">vitalik.eth on X: "People who say "full decentralization is overkill, you only need non-custodial" are missing the point...</Link></li>
-        <li><Link href="https://twitter.com/Ooojin482/status/1592608847444992001" target="_blank">Ooojin 🇺🇦 on X: "What is decentralization? Here are 19 metrics of decentralization that make people on crypto Twitter yell at each other. A 🧵"</Link></li>
+        <li><Link href="https://twitter.com/VitalikButerin/status/1247607628668309507" target="_blank">vitalik.eth on X: People who say full decentralization is overkill, you only need non-custodial are missing the point...</Link></li>
+        <li><Link href="https://twitter.com/Ooojin482/status/1592608847444992001" target="_blank">Ooojin 🇺🇦 on X: What is decentralization? Here are 19 metrics of decentralization that make people on crypto Twitter yell at each other. A 🧵</Link></li>
         <li><Link href="https://nodewatch.io/" target="_blank">Nodewatch - Eth2 Node Analytics</Link></li>
-        <li><Link href="https://twitter.com/mt_1466/status/1570517927061000192" target="_blank">MT on X: "Security and decentralization are tough to quantify in crypto land Trust me, I`&apos;`ve tried (image) </Link></li>
+        <li><Link href="https://twitter.com/mt_1466/status/1570517927061000192" target="_blank">MT on X: Security and decentralization are tough to quantify in crypto land Trust me, I`&apos;`ve tried (image) </Link></li>
         <li><Link href="https://news.earn.com/quantifying-decentralization-e39db233c28e" target="_blank">Quantifying Decentralization. We must be able to measure blockchain… | by Balaji S. Srinivasan | news.earn.com</Link></li>
         <li><Link href="https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274" target="_blank">The Meaning of Decentralization. “Decentralization” is one of the words… | by Vitalik Buterin | Medium</Link></li>
         <li><Link href="https://twitter.com/Justin_Bons/status/1759631000374567282" target="_blank">Justin Bons on X: What is decentralization & how do we really measure it? </Link></li>

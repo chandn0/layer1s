@@ -31,7 +31,7 @@ export const Tron = () => {
 
 <h2 className={subtitle()}>3. Liveliness:</h2>
 
-<p>The Tron network suffers from a <strong>single point of failure</strong> when it comes to client software. Currently, <strong>all SRs utilize the same software, java-tron</strong>. If a critical vulnerability were discovered in this software, it could potentially <strong>halt the entire Tron network</strong>. On November 2nd, 2021, the network was <strong>paused for 2 hours</strong> due to a "malicious contract" targeting an SR.</p>
+<p>The Tron network suffers from a <strong>single point of failure</strong> when it comes to client software. Currently, <strong>all SRs utilize the same software, java-tron</strong>. If a critical vulnerability were discovered in this software, it could potentially <strong>halt the entire Tron network</strong>. On November 2nd, 2021, the network was <strong>paused for 2 hours</strong> due to a `&quot;`malicious contract`&quot;` targeting an SR.</p>
 
 <h2 className={subtitle()}>4. Governance:</h2>
 
