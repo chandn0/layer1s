@@ -65,8 +65,7 @@ export default function RootLayout({
 								<Link isExternal className="text-primary" href="https://github.com/chandn0/layer1s">GitHub</Link> 
 								||  
 								<span className="text-default-600">Made by</span>
-								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link> &
-								<Link isExternal className="text-primary" href="https://twitter.com/LeonWaidmann">Leon</Link>
+								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link>
 							</div>
 						</footer>
 					</div>
