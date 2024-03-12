@@ -12,7 +12,7 @@ import {Divider} from "@nextui-org/react";
 
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export const metadata: Metadata = {
@@ -71,6 +71,7 @@ export default function RootLayout({
 					</div>
 				</Providers>
 			</body>
+			<GoogleAnalytics gaId="G-1FQZBEQGQ1" />
 		</html>
 	);
 }
