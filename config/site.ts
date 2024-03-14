@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "layer1s-mertics",
+	name: "blockchains-monitor",
 	description: "This website is an effort created to measure key metrics such as decentralization, censorship resistance, liveliness, and governance updates on layer1s. The goal is to guide the community in investing their time and money in the areas that are required to strengthen the layer1s.",
 	navItems: [
 		{
